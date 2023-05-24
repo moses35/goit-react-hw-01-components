@@ -22,5 +22,5 @@ export const Table_td = styled.td`
   height: 30px;
 `;
 export const Table_tr = styled.tr`
-  background-color: ${props => (props.index % 2 == 0 ? 'white' : '#f1eaea')};
+  background-color: ${props => (props.index % 2 === 0 ? 'white' : '#f1eaea')};
 `;
