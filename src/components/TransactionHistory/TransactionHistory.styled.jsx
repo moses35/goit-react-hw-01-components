@@ -10,17 +10,17 @@ export const Table = styled.table`
     0px 2px 1px rgba(0, 0, 0, 0.2);
 `;
 
-export const Table_th = styled.th`
+export const TableTh = styled.th`
   border: 1px solid black;
   background-color: aqua;
   color: white;
   height: 30px;
 `;
-export const Table_td = styled.td`
+export const TableTd = styled.td`
   border: 1px solid black;
   color: #5f5858;
   height: 30px;
 `;
-export const Table_tr = styled.tr`
+export const TableTr = styled.tr`
   background-color: ${props => (props.index % 2 === 0 ? 'white' : '#f1eaea')};
 `;
